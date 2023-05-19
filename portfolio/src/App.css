@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  height: 100vh;
+  background-color: rgba(74, 211, 214, 0.587);
+}
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  margin-left: 5%;
+  width: 90%;
+  height: 15vh;
+  background-color: rgba(232, 181, 71, 0.744);
+  justify-items: center;
+  align-items: center;
+  margin-top: 4vh;
+  border-radius: 10px;
+}
+.name,
+.photo {
+  height: 9vh;
+  width: 60%;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vh;
+  color: rgb(82, 16, 143);
+}
+.photo {
+  height: 15vh;
+  width: 13%;
+  background-image: url("./photo/photo.jpg");
+  background-size: contain;
+  background-position: contain;
+}

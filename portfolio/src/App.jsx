@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <input type="number" value={inputValue}></input>
-      <div className="result"></div>
+    <div className="app">
+      <Header />
     </div>
   );
 }
