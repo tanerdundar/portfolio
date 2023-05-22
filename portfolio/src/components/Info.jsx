@@ -6,7 +6,6 @@ library.add(faLink);
 function Info() {
   return (
     <div>
-      <div className="info-title">{/* <b>CONNECTIONS</b> */}</div>
       <div className="info-text">
         <div className="linkedin">
           <div className="logo">

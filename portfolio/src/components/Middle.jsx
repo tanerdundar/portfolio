@@ -1,6 +1,7 @@
 import About from "./About";
 import Info from "./Info";
 import Other from "./Other";
+import Skills from "./Skills";
 
 function Middle() {
   return (
@@ -9,6 +10,7 @@ function Middle() {
         <About />
       </div>
       <div className="midd info">
+        <Skills />
         <Info />
       </div>
       <div className="midd other">
