@@ -114,7 +114,6 @@ body {
 }
 .projects {
   width: 100%;
-  height: 100vh;
   background-color: orange;
 }
 .projects-title {
@@ -126,4 +125,42 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.js-title {
+  font-size: 4vh;
+}
+.js-title-text {
+  padding-left: 10%;
+}
+.single-project {
+  display: flex;
+  padding-left: 0%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.project {
+  width: 20%;
+  margin: 3vh 3%;
+  height: 50vh;
+  background-color: blue;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-photo {
+  width: 80%;
+  height: 30vh;
+  background-color: white;
+}
+.project-name,
+.project-link {
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+  width: 80%;
+  font-size: 3vh;
 }
