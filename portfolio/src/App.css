@@ -102,6 +102,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+.logo {
   margin-left: -50px;
 }
 .link {
