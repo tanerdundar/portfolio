@@ -12,7 +12,9 @@ function Project(props) {
       ></div>
       <div className="project-name">{props.name}</div>
       <div className="project-link">
-        <a href={props.link}>on Github</a>
+        <a href={props.link} target="_blank">
+          on Github
+        </a>
       </div>
     </div>
   );
