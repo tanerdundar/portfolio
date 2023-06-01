@@ -9,9 +9,9 @@ function About() {
           I am a software developer with experience in
           <b className="blue">Java/Spring Boot</b>, and
           <b className="blue"> JavaScript/ReactJS</b>. I am creative, open
-          NETLIFY CLIENT DENEME minded, and a strong team player. I would like
-          to start my career as a software developer. I am also interested in
-          learning new technologies and methodologies.
+          minded, and a strong team player. I would like to start my career as a
+          software developer. I am also interested in learning new technologies
+          and methodologies.
         </p>
       </div>
     </div>
