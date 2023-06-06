@@ -8,7 +8,7 @@ function Project(props) {
       <div
         onClick={goToWebsite}
         className="project-photo"
-        style={{ backgroundImage: `url(${props.photo})` }}
+        style={{ backgroundImage: `url(${props.photo})`, cursor: "pointer" }}
       ></div>
       <div className="project-name">{props.name}</div>
       <div className="project-link">
