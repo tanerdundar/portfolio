@@ -3,7 +3,7 @@ let jsProjects = [
   {
     name: "box-mover",
     photo:
-      "https://raw.githubusercontent.com/tanerdundar/portfolio/master/portfolio/src/photo/box-move.jpg",
+      "https://raw.githubusercontent.com/tanerdundar/portfolio/master/portfolio/src/photo/box-mover.jpg",
     site: "https://box-mover.netlify.app/",
     link: "https://github.com/tanerdundar/boxMover",
   },
