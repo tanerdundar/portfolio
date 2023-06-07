@@ -16,7 +16,10 @@ function Info() {
             />
           </div>
           <div className="link">
-            <a href="https://www.linkedin.com/in/taner-d%C3%BCndar-751647179/">
+            <a
+              href="https://www.linkedin.com/in/taner-d%C3%BCndar-751647179/"
+              target="_blank"
+            >
               Linkedin
             </a>
           </div>
@@ -30,7 +33,9 @@ function Info() {
             />
           </div>
           <div className="link">
-            <a href="https://github.com/tanerdundar">Github</a>
+            <a href="https://github.com/tanerdundar" target="_blank">
+              Github
+            </a>
           </div>
         </div>
       </div>
